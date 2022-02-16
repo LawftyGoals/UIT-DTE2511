@@ -11,12 +11,13 @@ def main():
     capital_file.close()
 
     while True:
+        choice = input('Input state: ')
+
         try:
-            choice = input('Input state: ')
+            print(f'The capital of {choice} is {capital_list[choice]}.')
         except KeyError:
             print("That is not an American State. Please try again.")
         else:
-            print(f'The capital of {choice} is {capital_list[choice]}.')
             break
 
 if __name__ == '__main__':
