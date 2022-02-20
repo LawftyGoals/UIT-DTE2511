@@ -1,0 +1,6 @@
+Gjør endringer i Vehicle klassen fra forrige innlevering, legg til et felt for registreringsnummer.
+Definer en ny klasse med navn SpeedTicket som skal kunne ha informasjon om en fartsovertredelse, f.eks. bilnummer, tidspunkt, hastighet og fartsgrense.
+En Vehicle skal kunne ha registrert en eller flere fartsovertredelser, benytt en passende datastruktur for lagring av disse.
+Lag et menyvalg for sjekk av fartsovertredelser. For hvert kjøretøy skal en gå igjennom dictionary fra listSpeeders, dersom bilnummer er registrert skal det opprettes et objekt av typen SpeedTicket og tas vare på for det aktuelle kjøretøy.
+Ved lesing/skriving til fil når programmet starter/avsluttes skal også disse leses/skrives. Tips: Bruk pickle.
+GitHub startup prosjektet inneholder testen radar_test.py, denne skal ikke endres, men benyttes for sjekk av metoden listSpeeders med parametre. Testen kjøres automatisk på GitHub og resultatet av testen vises den den som retter oppgaven. Testen forventer å finne listSpeeders i modulen radars (import radars), så sørg for at funksjonen ligger der.
